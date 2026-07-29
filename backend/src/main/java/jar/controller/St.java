@@ -3,10 +3,14 @@ package jar.controller;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,41 +24,67 @@ public class St {
 
     @Autowired
     StudentRepo db;
+    @GetMapping("/students")
+    Map<Object, Object> getStudents() {
 
-    @GetMapping()
-    Map<Object, Object> m1() {
         Map<Object, Object> res = new HashMap<>();
-        res.put("msg", "welcome to get api");
+
+        res.put("msg", "Students fetched successfully");
         res.put("status", 200);
-        res.put("data", m3());
+        res.put("data", db.findAll());
 
         return res;
     }
 
-    @PostMapping()
-    Map<Object, Object> m2(@RequestBody Student d) {
+    @PostMapping("/students")
+    Map<Object, Object> addStudent(@RequestBody Student d) {
         Map<Object, Object> res = new HashMap<>();
-        res.put("msg", "welcome to Post api");
-        res.put("status", 201);
-        String name = d.getName();
-        String email = d.getEmail();
-        String ip = d.getIp();
         Student s = new Student();
-        s.setName(name);
-        s.setEmail(email);
-        s.setIp(ip);
-
-        System.out.println("\n\t check 1 : " + d.getName());
-        System.out.println("\n\t check 1 : " + d.getEmail());
-        System.out.println("\n\t check 1 : " + d.getIp());
-
+        s.setName(d.getName());
+        s.setEmail(d.getEmail());
+        s.setIp(d.getIp());
         db.save(s);
-
+        res.put("msg", "Student added successfully");
+        res.put("status", 201);
+        res.put("data", s);
         return res;
     }
 
-    List<Student> m3() {
-        return db.findAll();
+    @PutMapping("/students/{id}")
+    Map<Object, Object> updateStudent(@PathVariable Long id,
+            @RequestBody Student d) {
+        Map<Object, Object> res = new HashMap<>();
+        Optional<Student> data = db.findById(id);
+        if (data.isPresent()) {
+            Student s = data.get();
+            s.setName(d.getName());
+            s.setEmail(d.getEmail());
+            s.setIp(d.getIp());
+            db.save(s);
+            res.put("msg", "Student updated successfully");
+            res.put("status", 200);
+            res.put("data", s);
+        } else {
+
+            res.put("msg", "Student not found");
+            res.put("status", 404);
+        }
+        return res;
+    }
+
+    @DeleteMapping("/students/{id}")
+    Map<Object, Object> deleteStudent(@PathVariable Long id) {
+        Map<Object, Object> res = new HashMap<>();
+        if (db.existsById(id)) {
+            db.deleteById(id);
+            res.put("msg", "Student deleted successfully");
+            res.put("status", 200);
+        } else {
+            res.put("msg", "Student not found");
+            res.put("status", 404);
+
+        }
+        return res;
     }
 
 }
