@@ -8,6 +8,7 @@ import jar.service.Dservice;
 
 @RestController
 @RequestMapping("/api/v1")
+@CrossOrigin(origins = "*")
 public class Read {
 
     @Autowired

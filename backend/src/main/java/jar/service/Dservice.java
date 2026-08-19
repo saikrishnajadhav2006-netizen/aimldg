@@ -48,7 +48,7 @@ public class Dservice {
     }
 
    
-    public Map<Object, Object> updateStudent(Integer id, Student d) {
+    public Map<Object, Object> updateStudent(Long id, Student d) {
         Map<Object, Object> res = new HashMap<>();
         Optional<Student> data = db.findById(id);
 
@@ -72,7 +72,7 @@ public class Dservice {
     }
 
     
-    public Map<Object, Object> deleteStudent(Integer id) {
+    public Map<Object, Object> deleteStudent(Long id) {
         Map<Object, Object> res = new HashMap<>();
 
         if (db.existsById(id)) {

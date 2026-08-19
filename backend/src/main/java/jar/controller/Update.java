@@ -9,13 +9,14 @@ import jar.service.Dservice;
 
 @RestController
 @RequestMapping("/api/v1")
+@CrossOrigin(origins = "*")
 public class Update {
 
     @Autowired
     private Dservice service;
 
-    @PutMapping("/{id}")
-    public Map<Object, Object> update(@PathVariable Integer id, @RequestBody Student d) {
+    @PutMapping("/update/{id}")
+    public Map<Object, Object> update(@PathVariable Long id, @RequestBody Student d) {
         return service.updateStudent(id, d);
     }
 }

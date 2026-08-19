@@ -8,13 +8,14 @@ import jar.service.Dservice;
 
 @RestController
 @RequestMapping("/api/v1")
+@CrossOrigin(origins = "*")
 public class Delete {
 
     @Autowired
     private Dservice service;
 
-    @DeleteMapping("/{id}")
-    public Map<Object, Object> delete(@PathVariable Integer id) {
+    @DeleteMapping("/delete/{id}")
+    public Map<Object, Object> delete(@PathVariable Long id) {
         return service.deleteStudent(id);
     }
 }
