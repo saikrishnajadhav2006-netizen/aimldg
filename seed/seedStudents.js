@@ -3,7 +3,7 @@
 
 const fs = require("fs");
 
-const BASE_URL = "http://localhost:4040/api/v1"; // change if needed
+const BASE_URL = "http://localhost:8080/api/v1/create"; // change if needed
 const FILE_PATH = "data.json"; // change if your file is named differently
 
 async function main() {

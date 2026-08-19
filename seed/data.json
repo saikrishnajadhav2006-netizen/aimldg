@@ -2,556 +2,478 @@
     "msg": "Student Fetched Successfully",
     "data": [
         {
-            "email": "24eg107d65@anurag.edu.in",
+            "email": null,
             "id": 1,
-            "ip": " 192.168.137.112",
-            "name": "sri raghavi"
+            "ip": null,
+            "name": null
         },
         {
-            "email": "24eg107d47@anurag.edu.in",
-            "id": 2,
-            "ip": "192.168.137.185",
-            "name": "pooja"
+            "email": "24eg107d10@anurag.edu.in",
+            "id": 4,
+            "ip": "103.203.173.20",
+            "name": "Praful-B"
         },
         {
-            "email": "24eg107d63@anurag.edu.in",
-            "id": 3,
-            "ip": "192.168.56.1",
-            "name": "AKSHAY ESHWAR"
+            "email": "24eg107g49@anurag.edu.in",
+            "id": 6,
+            "ip": "10.5.13.182",
+            "name": "harsha"
+        },
+        {
+            "email": "24eg107g65@anurag.edu.in",
+            "id": 7,
+            "ip": "40.0.34.182",
+            "name": "Ramu"
+        },
+        {
+            "email": "24eg107d33@gmail.com",
+            "id": 8,
+            "ip": " 10.144.105.199",
+            "name": "Vaibhav"
+        },
+        {
+            "email": "24eg107d02@anurag.edu.in",
+            "id": 9,
+            "ip": "40.0.34.230",
+            "name": "Udayasree"
+        },
+        {
+            "email": "24eg107d51@anurag.edu.in",
+            "id": 10,
+            "ip": "40.0.31.125",
+            "name": "Yashwanth"
+        },
+        {
+            "email": "24EG107G22@anurag.edu.in",
+            "id": 11,
+            "ip": "192.168.137.1",
+            "name": "Pratham"
+        },
+        {
+            "email": "24eg107d05@anurag.edu.in",
+            "id": 12,
+            "ip": "40.0.36.81",
+            "name": "Aniruddh Bellur"
+        },
+        {
+            "email": "24EG107G23@anurag.edu.in",
+            "id": 13,
+            "ip": "10.5.13.154",
+            "name": "Mahendra"
+        },
+        {
+            "email": "24eg107g41@anurag.edu.in",
+            "id": 14,
+            "ip": "192.168.137.240",
+            "name": "vishnu"
+        },
+        {
+            "email": "24eg107g36@anurag.edu.in",
+            "id": 15,
+            "ip": "40.0.35.128",
+            "name": "Rakesh"
+        },
+        {
+            "email": "24eg107g18@anurag.edu.in",
+            "id": 17,
+            "ip": "192.168.137.223",
+            "name": "saikrishna"
+        },
+        {
+            "email": "24eg107g12@anurag.edu.in",
+            "id": 18,
+            "ip": "10.5.13.184",
+            "name": "badrinath"
+        },
+        {
+            "email": "24eg107d57@anurag.edu.in",
+            "id": 19,
+            "ip": "10.5.13.183",
+            "name": "Sreeyog Reddy"
+        },
+        {
+            "email": "24eg107g45@anurag.edu.in",
+            "id": 20,
+            "ip": " 10.5.13.151",
+            "name": "Spandana Reddy"
+        },
+        {
+            "email": "24eg107d32@anurag.edu.in",
+            "id": 21,
+            "ip": " 10.5.13.203",
+            "name": "karthikeyan"
+        },
+        {
+            "email": "24eg107d58@anurag.edu.in",
+            "id": 22,
+            "ip": "192.168.1.20",
+            "name": "praneeth reddy"
+        },
+        {
+            "email": "24eg107d43@anurag.edu.in",
+            "id": 23,
+            "ip": "14.194.144.102",
+            "name": "Gnana sahithi"
+        },
+        {
+            "email": "24eg107g28@anurag.edu.in",
+            "id": 24,
+            "ip": "10.5.13.149",
+            "name": "Rupa Sri"
+        },
+        {
+            "email": "24eg107g39@gmail.com",
+            "id": 25,
+            "ip": "40.0.33.220",
+            "name": "Ashwitha Reddy"
+        },
+        {
+            "email": "24eg107d01@gmail.com",
+            "id": 26,
+            "ip": "192.168.137.28",
+            "name": "Pushpak"
+        },
+        {
+            "email": "24eg107g24@anurag.edu.in",
+            "id": 27,
+            "ip": "40.0.36.41",
+            "name": "Harshitha"
+        },
+        {
+            "email": "24eg107g45@anurag.edu.in",
+            "id": 28,
+            "ip": " 10.5.13.151",
+            "name": "Spandana Reddy"
+        },
+        {
+            "email": "24eg107g39@anurag.edu.in",
+            "id": 30,
+            "ip": " 40.0.33.220",
+            "name": "Ashwitha Reddy"
+        },
+        {
+            "email": "24eg107d02@anurag.edu.in",
+            "id": 31,
+            "ip": "10.5.13.153",
+            "name": "Udayasree"
+        },
+        {
+            "email": "24eg107g39@gmail.com",
+            "id": 32,
+            "ip": "40.0.33.220",
+            "name": "Ashwitha Reddy"
         },
         {
             "email": "24eg107d64@anurag.edu.in",
-            "id": 4,
+            "id": 33,
             "ip": "192.168.137.1",
             "name": "sathwik patel"
         },
         {
-            "email": "24eg107d51@anurag.edu.in",
-            "id": 5,
-            "ip": "127.0.0.1",
-            "name": "yashwanth"
-        },
-        {
-            "email": "24eg107d32@anurag.edu.in",
-            "id": 6,
-            "ip": "10.5.13.65",
-            "name": "karthikeyan"
-        },
-        {
-            "email": "24eg107d04@anurag.edu.in",
-            "id": 7,
-            "ip": "10.51.252.163",
-            "name": "Likitha"
-        },
-        {
-            "email": "24eg107d27@anurag.edu.in",
-            "id": 8,
-            "ip": "10.5.13.38",
-            "name": "TejaSree Lakshmi"
-        },
-        {
-            "email": "24eg107d17@anurag.edu.in",
-            "id": 9,
-            "ip": "40.0.34.230",
-            "name": "Sudiksha"
-        },
-        {
-            "email": "24eg107d36@anurag.edu.in",
-            "id": 10,
-            "ip": "192.168.137.29",
-            "name": "Mani Pratheek"
-        },
-        {
-            "email": "24eg107d60@anurag.edu.in",
-            "id": 11,
-            "ip": "192.168.137.245",
-            "name": "V.Ramya"
-        },
-        {
-            "email": "24eg107d37@anurag.edu.in",
-            "id": 12,
-            "ip": "10.51.252.156",
-            "name": "Srihitha"
-        },
-        {
-            "email": "24EG107D28@ANURAG.EDU.IN",
-            "id": 13,
-            "ip": "40.0.34.141",
-            "name": "HARINI"
-        },
-        {
-            "email": "24eg107d06@anurag.edu.in",
-            "id": 14,
-            "ip": "192.168.137.10",
-            "name": "Ganesh"
-        },
-        {
-            "email": "24eg107d49@anurag.edu.in",
-            "id": 15,
-            "ip": "40.0.31.58",
-            "name": "NAVYA"
-        },
-        {
-            "email": "24eg107d08@anurag.edu.in",
-            "id": 16,
-            "ip": "192.168.137.160",
-            "name": "venu prasad"
-        },
-        {
-            "email": "24eg107d52@anurag.edu.in",
-            "id": 17,
-            "ip": "40.0.35.121",
-            "name": "Akash"
-        },
-        {
-            "email": "24eg107d57@gmail.com",
-            "id": 18,
-            "ip": "10.5.13.69",
-            "name": "Sreeyog Reddy"
-        },
-        {
-            "email": "24eg107d54@anurag.edu.in",
-            "id": 19,
-            "ip": "40.0.36.117",
-            "name": "Sriram"
-        },
-        {
-            "email": "24eg107d48@anurag.edu.in",
-            "id": 20,
-            "ip": " 192.168.137.1",
-            "name": "Adharsh"
-        },
-        {
-            "email": "24eg107d17@anurag.edu.in",
-            "id": 21,
-            "ip": "40.0.34.230",
-            "name": "Sudiksha"
-        },
-        {
-            "email": "24eg107d57@gmail.com",
-            "id": 22,
-            "ip": "10.5.13.69",
-            "name": "Sreeyog Reddy"
-        },
-        {
-            "email": "24eg107d57@gmail.com",
-            "id": 23,
-            "ip": "10.5.13.69",
-            "name": "Sreeyog Reddy"
-        },
-        {
-            "email": "24eg107d57@gmail.com",
-            "id": 24,
-            "ip": "10.5.13.69",
-            "name": "Sreeyog Reddy"
-        },
-        {
-            "email": "24eg107d57@gmail.com",
-            "id": 25,
-            "ip": "10.5.13.69",
-            "name": "Sreeyog Reddy"
-        },
-        {
-            "email": "24eg107d52@anurag.edu.in",
-            "id": 26,
-            "ip": "40.0.35.121",
-            "name": "Akash"
-        },
-        {
-            "email": "24eg107d57@gmail.com",
-            "id": 27,
-            "ip": "10.5.13.69",
-            "name": "Sreeyog Reddy"
-        },
-        {
-            "email": "24eg107d57@gmail.com",
-            "id": 28,
-            "ip": "10.5.13.69",
-            "name": "Sreeyog Reddy"
-        },
-        {
-            "email": "24EG107D28@ANURAG.EDU.IN",
-            "id": 29,
-            "ip": "40.0.34.141",
-            "name": "HARINI"
-        },
-        {
-            "email": "24eg107d36@anurag.edu.in",
-            "id": 30,
-            "ip": "192.168.137.29",
-            "name": "Mani Pratheek"
-        },
-        {
-            "email": "udayasree@gmail.com",
-            "id": 31,
-            "ip": "192.168.137.1",
-            "name": "Udayasree"
-        },
-        {
-            "email": "24eg107d33@gmail.com",
-            "id": 33,
-            "ip": "10.5.13.39",
-            "name": "Vaibhav"
-        },
-        {
-            "email": "24eg107d33@gmail.com",
+            "email": "24eg107d24@anurag.edu.in",
             "id": 34,
-            "ip": "10.5.13.39",
-            "name": "Vaibhav"
-        },
-        {
-            "email": "24eg107d03@anurag.edu.in",
-            "id": 38,
-            "ip": "10.5.13.45",
-            "name": "Ramcharan Reddy"
-        },
-        {
-            "email": "udayasree@gmail.com",
-            "id": 39,
-            "ip": "192.168.137.1",
-            "name": "Udayasree"
+            "ip": "192.168.137.241",
+            "name": "Prahasa"
         },
         {
             "email": "24eg107d42@anurag.edu.in",
-            "id": 40,
-            "ip": "40.0.30.77",
-            "name": "M.Vamshika"
+            "id": 35,
+            "ip": "40.0.33.253",
+            "name": "vamshika Reddy"
+        },
+        {
+            "email": "24eg107d60@anurag.edu.in",
+            "id": 36,
+            "ip": "192.168.137.128",
+            "name": "Ramya"
         },
         {
             "email": "24eg107d19@anurag.edu.in",
-            "id": 41,
-            "ip": "10.5.13.1",
-            "name": "Mahadev Yadav"
-        },
-        {
-            "email": "24eg107d10@anurag.edu.in",
-            "id": 43,
-            "ip": "192.168.137.108/24",
-            "name": "Praful-B"
-        },
-        {
-            "email": "24eg107d53@anurag.edu.in",
-            "id": 44,
-            "ip": "10.5.13.1",
-            "name": "sridhar"
-        },
-        {
-            "email": "24eg107d11@anurag.edu.in",
-            "id": 45,
-            "ip": "103.203.173.20",
-            "name": "Mahesh"
-        },
-        {
-            "email": "24eg107d18@anurag.edu.in",
-            "id": 46,
-            "ip": "40.0.34.237",
-            "name": "pranathi"
-        },
-        {
-            "email": "24eg107d31@anurag.edu.in",
-            "id": 47,
-            "ip": "103.203.173.20",
-            "name": "sravan"
-        },
-        {
-            "email": "24eg107d20@anurag.edu.in",
-            "id": 48,
-            "ip": "103.203.173.20",
-            "name": "manvith"
-        },
-        {
-            "email": "24eg107d24@anurag.edu.in",
-            "id": 49,
-            "ip": "192.168.137.53",
-            "name": "prahasa"
-        },
-        {
-            "email": "24eg107g43@anurag.edu.in",
-            "id": 50,
-            "ip": "40.0.36.142",
-            "name": "navadeepreddy"
-        },
-        {
-            "email": "24eg107d56@anurag.edu.in",
-            "id": 51,
-            "ip": "192.168.137.30",
-            "name": "shivani"
-        },
-        {
-            "email": "24eg107d53@anurag.edu.in",
-            "id": 52,
-            "ip": "10.5.13.1",
-            "name": "sridhar"
-        },
-        {
-            "email": "24eg107d61@anurag.edu.in",
-            "id": 53,
-            "ip": "10.5.13.55",
-            "name": "shiva"
-        },
-        {
-            "email": "amshikapatel.9@gmail.com",
-            "id": 54,
-            "ip": "40.0.35.150",
-            "name": "amshika"
-        },
-        {
-            "email": "24eg107d62@anurag.edu.in",
-            "id": 55,
-            "ip": "103.203.173.20",
-            "name": "nikhil"
-        },
-        {
-            "email": "24eg107d01@anurag.edu.in",
-            "id": 56,
-            "ip": " 40.0.28.86",
-            "name": "pushpak"
-        },
-        {
-            "email": ":24eg107d38@anurag.edu.in",
-            "id": 57,
-            "ip": "192.168.137.197",
-            "name": "sai ram"
-        },
-        {
-            "email": "24eg107g18@anurag.edu.in",
-            "id": 58,
-            "ip": "192.168.137.93",
-            "name": "Krishna"
-        },
-        {
-            "email": "24EG107G22@anurag.edu.in",
-            "id": 59,
-            "ip": "10.5.13.53",
-            "name": "Pratham"
-        },
-        {
-            "email": "24eg107g03@anurag.edu.in",
-            "id": 60,
-            "ip": "40.0.37.5",
-            "name": "adwaitha"
-        },
-        {
-            "email": "24eg107d05@anurag.edu.in",
-            "id": 61,
-            "ip": "40.0.37.35",
-            "name": "Aniruddh"
-        },
-        {
-            "email": ":24eg107d38@anurag.edu.in",
-            "id": 62,
-            "ip": "192.168.137.197",
-            "name": "sai ram"
-        },
-        {
-            "email": "24eg107g23@gmail.com",
-            "id": 63,
-            "ip": "10.5.13.51",
-            "name": "Mahendra"
-        },
-        {
-            "email": "24eg107g27@anurag.edu.in",
-            "id": 64,
-            "ip": "40.0.34.5",
-            "name": "Ramya Reddy"
-        },
-        {
-            "email": "24eg107g57@anurag.edu.in",
-            "id": 65,
-            "ip": "40.0.37.19",
-            "name": "Sravya"
-        },
-        {
-            "email": "24eg107g19@anurag.edu.in",
-            "id": 66,
-            "ip": "192.168.1.10",
-            "name": "Sanjana"
-        },
-        {
-            "email": "24eg107g49@anurag.edu.in",
-            "id": 67,
+            "id": 37,
             "ip": "192.168.137.1",
-            "name": "Harsha"
+            "name": "Mahadev"
         },
         {
-            "email": "24eg107g54@anurag.edu.in",
-            "id": 68,
-            "ip": "10.5.13.77",
-            "name": "Niharika"
+            "email": "24eg107d08@anurag.edu.in",
+            "id": 38,
+            "ip": "40.0.35.97",
+            "name": "venu prasad"
         },
         {
-            "email": "24eg107g63@anurag.edu.in",
-            "id": 69,
-            "ip": "40.0.36.241",
-            "name": "haasini"
+            "email": "sriraghavi@gmail.com",
+            "id": 39,
+            "ip": null,
+            "name": "Sri Raghavi"
         },
         {
-            "email": "24eg107g02@anurag.edu.in",
-            "id": 70,
+            "email": "ramcharan@gmail.com",
+            "id": 40,
+            "ip": null,
+            "name": "Ram Charan Reddy"
+        },
+        {
+            "email": "24eg107d06@anurag.edu.in",
+            "id": 41,
+            "ip": "40.0.34.220",
+            "name": "A.Ganesh Reddy"
+        },
+        {
+            "email": null,
+            "id": 42,
             "ip": "40.0.32.5",
             "name": "meghana"
         },
         {
-            "email": "24eg107g65@anurag.edu.in",
-            "id": 71,
-            "ip": "40.0.34.20",
-            "name": "ramu"
-        },
-        {
-            "email": "24eg107g58@anurag.edu.in",
-            "id": 72,
-            "ip": "1986.18.6.10",
-            "name": "Nethritha"
-        },
-        {
-            "email": "24eg107d22@anurag.edu.in",
-            "id": 73,
-            "ip": "40.0.35.150",
-            "name": "amshika"
-        },
-        {
-            "email": "24eg107d58@anurag.edu.in",
-            "id": 74,
-            "ip": "10.5.13.55",
-            "name": "sudini praneeth reddy"
+            "email": "ramcharan@gmail.com",
+            "id": 43,
+            "ip": null,
+            "name": "Ram Charan Reddy"
         },
         {
             "email": "24eg107g04@anurag.edu.in",
-            "id": 75,
-            "ip": "192.168.137.92",
+            "id": 44,
+            "ip": "172.24.224.1",
             "name": "mrudhuvan"
         },
         {
-            "email": "24eg107g45@anurag.edu.in",
-            "id": 76,
-            "ip": "10.5.13.42",
-            "name": "Spandana"
-        },
-        {
-            "email": "24eg107g13@anurag.edu.in",
-            "id": 77,
-            "ip": "40.0.41.87",
-            "name": "ajay kumar"
-        },
-        {
-            "email": "24eg107g36@anurag.ed.in",
-            "id": 78,
-            "ip": "40.0.34.9",
-            "name": "Rakesh"
-        },
-        {
-            "email": "24eg107g17@anurag.edu.in",
-            "id": 79,
-            "ip": "10.0.0.10",
-            "name": "L.RAGHAVI"
-        },
-        {
-            "email": "24eg107g41@anurag.edu.in",
-            "id": 80,
-            "ip": "192.168.137.73",
-            "name": "vishnu"
-        },
-        {
-            "email": "24eg107d39@anurag.edu.in",
-            "id": 81,
-            "ip": "40.0.34.169",
-            "name": "keerthi"
-        },
-        {
-            "email": "24eg107d54@anurag.edu.in",
-            "id": 82,
-            "ip": "40.0.36.117",
-            "name": "Sriram"
-        },
-        {
-            "email": "24eg107g13@anurag.edu.in",
-            "id": 83,
-            "ip": "40.0.41.87",
-            "name": "ajay kumar"
-        },
-        {
-            "email": "24eg107g26@anurag.edu.in",
-            "id": 84,
-            "ip": "10.5.13.67",
-            "name": "vivek reddy"
-        },
-        {
-            "email": "24eg107g39@anurag.edu.in",
-            "id": 85,
-            "ip": "10.5.13.4",
-            "name": "Ashwitha"
-        },
-        {
-            "email": "24eg107g36@anurag.ed.in",
-            "id": 86,
-            "ip": "40.0.34.9",
-            "name": "Rakesh"
-        },
-        {
-            "email": "24eg107d34@anurag.edu.in",
-            "id": 87,
-            "ip": "40.0.35.84",
-            "name": "harini"
-        },
-        {
-            "email": "24eg107g20@anurag.edu.in",
-            "id": 88,
-            "ip": "10.5.13.56",
-            "name": "SHIVA SAI"
-        },
-        {
-            "email": "24eg107g46@anurag.edu.in",
-            "id": 89,
-            "ip": " 192.168.137.104",
-            "name": "ROHITH"
-        },
-        {
-            "email": "24eg107g38@anurag.edu.in",
-            "id": 90,
-            "ip": "10.5.13.43",
-            "name": "Umakar"
+            "email": "24eg107g04@anurag.edu.in",
+            "id": 45,
+            "ip": "172.24.224.1",
+            "name": "mrudhuvan"
         },
         {
             "email": "24eg107g15@anurag.edu.in",
-            "id": 91,
-            "ip": "192.168.137.85",
+            "id": 46,
+            "ip": "40.0.34.229",
             "name": "Amrutha"
         },
         {
-            "email": "24eg107g53@anurag.edu.in",
-            "id": 92,
-            "ip": "10.5.13.60",
-            "name": "vinay"
+            "email": "24eg107g06@anurag.edu.in",
+            "id": 47,
+            "ip": "40.0.34.199",
+            "name": "Vaibhav"
+        },
+        {
+            "email": "24eg107d40@anurag.edu.in",
+            "id": 48,
+            "ip": "127.0.0.1",
+            "name": "hari vamshi"
+        },
+        {
+            "email": "24eg107g05@anurag.edu.in",
+            "id": 49,
+            "ip": "40.0.32.75",
+            "name": "navya shree"
+        },
+        {
+            "email": "24eg107d49@anurag.edu.in",
+            "id": 51,
+            "ip": "192.168.137.1",
+            "name": "navya"
+        },
+        {
+            "email": "24eg107g04@anurag.edu.in",
+            "id": 52,
+            "ip": "172.24.224.1",
+            "name": "mrudhuvan"
+        },
+        {
+            "email": "24eg107g03@anurag.edu.in",
+            "id": 53,
+            "ip": "40.0.35.175",
+            "name": "adwaitha"
         },
         {
             "email": "24eg107g07@anurag.edu.in",
-            "id": 93,
-            "ip": "10.55.101",
-            "name": "harika"
+            "id": 54,
+            "ip": "40.0.36.50",
+            "name": "Harika"
         },
         {
-            "email": "24eg107d34@anurag.edu.in",
-            "id": 94,
-            "ip": "40.0.35.84",
-            "name": "harini"
+            "email": null,
+            "id": 55,
+            "ip": "40.0.36.241",
+            "name": "haasinireddy"
         },
         {
-            "email": "24eg107g39@anurag.edu.in",
-            "id": 95,
-            "ip": "40.0.29.185",
-            "name": "Ashwitha"
+            "email": "24eg107g05@anurag.edu.in",
+            "id": 57,
+            "ip": "40.0.32.75",
+            "name": "Navya"
+        },
+        {
+            "email": "24eg107g04@anurag.edu.in",
+            "id": 58,
+            "ip": "172.24.224.1",
+            "name": "mrudhuvan"
+        },
+        {
+            "email": "24eg107d11@anurag.edu.in",
+            "id": 59,
+            "ip": " 40.0.17.144",
+            "name": "Mahesh"
+        },
+        {
+            "email": "24eg107g03@anurag.edu.in",
+            "id": 60,
+            "ip": "40.0.35.175",
+            "name": "adwaitha"
+        },
+        {
+            "email": null,
+            "id": 62,
+            "ip": "40.0.33.66",
+            "name": "HARINI"
+        },
+        {
+            "email": "24eg107d18@anurag.edu.in",
+            "id": 63,
+            "ip": "40.0.35.196",
+            "name": null
+        },
+        {
+            "email": "24eg107d20@anurag.edu.in",
+            "id": 64,
+            "ip": "10.5.13.146",
+            "name": "Manvith"
+        },
+        {
+            "email": "24eg107d31@anurag.edu.in",
+            "id": 65,
+            "ip": " 10.5.13.164",
+            "name": "sravan"
+        },
+        {
+            "email": "24eg107g03@anurag.edu.in",
+            "id": 66,
+            "ip": "40.0.35.175",
+            "name": "adwaitha"
+        },
+        {
+            "email": "24eg107g38@anurag.edu.in",
+            "id": 67,
+            "ip": "192.168.137.1",
+            "name": "Umakar"
+        },
+        {
+            "email": "ramcharan@gmail.com",
+            "id": 68,
+            "ip": null,
+            "name": "Ram Charan Reddy"
+        },
+        {
+            "email": "ramcharan@gmail.com",
+            "id": 69,
+            "ip": null,
+            "name": "Ram Charan Reddy"
+        },
+        {
+            "email": "24eg107g17@anurag.edu.in",
+            "id": 70,
+            "ip": "10.0.0.10",
+            "name": "Raghavi"
         },
         {
             "email": "24eg107g15@anurag.edu.in",
-            "id": 97,
-            "ip": "192.168.137.85",
+            "id": 71,
+            "ip": " 40.0.34.229",
             "name": "Amrutha"
         },
         {
-            "email": "24eg107g50@anurag.edu.in",
-            "id": 98,
-            "ip": "10.32.248.99",
-            "name": "manisai"
+            "email": "ramcharan@gmail.com",
+            "id": 72,
+            "ip": null,
+            "name": "Ram Charan Reddy"
+        },
+        {
+            "email": "24eg107g40@anurag.edu.in",
+            "id": 73,
+            "ip": "40.1.34.172",
+            "name": "Vinay"
+        },
+        {
+            "email": "24eg107g58@anurag.edu.in",
+            "id": 74,
+            "ip": "28.09.20.06",
+            "name": "Nethritha"
+        },
+        {
+            "email": "24eg107g54@anurag.edu.in",
+            "id": 75,
+            "ip": "192.168.1.1",
+            "name": "Niharika"
+        },
+        {
+            "email": "24eg107d25@anurag.edu.in",
+            "id": 76,
+            "ip": "40.0.35.841",
+            "name": "snehal"
+        },
+        {
+            "email": "24eg107d53@anurag.edu.in",
+            "id": 77,
+            "ip": "40.0.35.841",
+            "name": "sridhar"
+        },
+        {
+            "email": "24eg107g52@anurag.edu.in",
+            "id": 78,
+            "ip": " 92.31.1.21",
+            "name": "Poojitha"
+        },
+        {
+            "email": "24eg107g21@anurag.edu.in",
+            "id": 79,
+            "ip": "192.168.137.53",
+            "name": "gouse"
+        },
+        {
+            "email": "24eg107g31@anurag.edu.in",
+            "id": 80,
+            "ip": "192.168.137.333",
+            "name": "Sai Vikasini"
+        },
+        {
+            "email": "24EG107D03@gmail.com",
+            "id": 81,
+            "ip": null,
+            "name": "Ram Charan Reddy"
+        },
+        {
+            "email": "24eg107d38@gmail.com",
+            "id": 82,
+            "ip": "10.251.23.220",
+            "name": "Sai"
+        },
+        {
+            "email": "24eg107d18@anurag.edu.in",
+            "id": 83,
+            "ip": "40.0.35.196",
+            "name": "pranathi bhj"
+        },
+        {
+            "email": "24eg107d53@anurag.edu.in",
+            "id": 84,
+            "ip": "40.0.35.841",
+            "name": "sridhar"
+        },
+        {
+            "email": "24eg107d18@anurag.edu.in",
+            "id": 85,
+            "ip": "40.0.35.196",
+            "name": "pranathi"
+        },
+        {
+            "email": "24eg107d61@anurag.edu.in",
+            "id": 86,
+            "ip": "40.0.34.75",
+            "name": "Shiva"
+        },
+        {
+            "email": "24eg107d38@gmail.com",
+            "id": 87,
+            "ip": "10.251.23.220",
+            "name": "Sai ramm"
         }
     ],
     "status": 200
