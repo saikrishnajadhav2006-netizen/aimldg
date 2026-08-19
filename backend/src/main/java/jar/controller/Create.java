@@ -14,7 +14,7 @@ public class Create {
     @Autowired
     private Dservice service;
 
-    @PostMapping
+    @PostMapping("/create")
     public Map<Object, Object> create(@RequestBody Student d) {
         return service.createStudent(d);
     }
