@@ -1,4 +1,3 @@
-
 package jar.service;
 
 import java.util.HashMap;
@@ -14,12 +13,12 @@ public class Dservice {
 
     private final StudentRepo db;
 
-    // Public constructor for dependency injection
+    
     public Dservice(StudentRepo db) {
         this.db = db;
     }
 
-    // 1. CREATE METHOD
+   
     public Map<Object, Object> createStudent(Student d) {
         Map<Object, Object> res = new HashMap<>();
 
@@ -37,7 +36,7 @@ public class Dservice {
         return res;
     }
 
-    // 2. READ METHOD
+
     public Map<Object, Object> getAllStudents() {
         Map<Object, Object> res = new HashMap<>();
         
@@ -48,7 +47,7 @@ public class Dservice {
         return res;
     }
 
-    // 3. UPDATE METHOD
+   
     public Map<Object, Object> updateStudent(Integer id, Student d) {
         Map<Object, Object> res = new HashMap<>();
         Optional<Student> data = db.findById(id);
@@ -72,7 +71,7 @@ public class Dservice {
         return res;
     }
 
-    // 4. DELETE METHOD
+    
     public Map<Object, Object> deleteStudent(Integer id) {
         Map<Object, Object> res = new HashMap<>();
 
