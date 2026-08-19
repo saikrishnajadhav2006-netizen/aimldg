@@ -13,7 +13,7 @@ public class Read {
     @Autowired
     private Dservice service;
 
-    @GetMapping 
+    @GetMapping("/read")
     public Map<Object, Object> read() {
         return service.getAllStudents();
     }
